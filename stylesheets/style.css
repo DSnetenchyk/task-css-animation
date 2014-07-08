@@ -4,10 +4,10 @@ body {
 
 @-webkit-keyframes cubinaire {
   from {
-    -webkit-transform: rotate(0deg) translateY(200px) rotateX(0deg);
+    -webkit-transform: rotate(0deg) translateY(200px) rotate3d(1,1,1,0deg);
   }
   to{
-    -webkit-transform: rotate(360deg) translateY(200px) rotateX(360deg);
+    -webkit-transform: rotate(360deg) translateY(200px) rotate3d(1,1,1,360deg);
   }
 }
 
