@@ -17,7 +17,7 @@ body {
  }
 
 .animate {
-  -webkit-animation : cubinaire 5s infinite linear;
+  -webkit-animation : cubinaire 10s infinite linear;
 }
 
 #cube {
@@ -36,40 +36,41 @@ body {
   padding: 20px;
   opacity: 0.9;
   background-position:center center;
+  background-size: 100%;
 }
 
 #cube div:nth-child(1) {
   -webkit-transform : translateZ(80px);
-  background-color  : #1E90FF;
+  background-image  : url(../assets/images/u.jpg);
   background-repeat : no-repeat;
 }
 
 #cube div:nth-child(2) {
   -webkit-transform : rotateY(90deg) translateZ(80px);
-  background-color  : #FA8072;
+  background-image  : url(../assets/images/r.jpg);
   background-repeat : no-repeat;
 }
 
 #cube div:nth-child(3) {
   -webkit-transform : rotateY(180deg) translateZ(80px);
-  background-color  : #FF8C00;
+  background-image  : url(../assets/images/d.jpg);
   background-repeat : no-repeat;
 }
 
 #cube div:nth-child(4) {
   -webkit-transform : rotateY(-90deg) translateZ(80px);
-  background-color  : #9400D3;
+  background-image  : url(../assets/images/l.jpg);
   background-repeat : no-repeat;
 }
 
 #cube div:nth-child(5) {
   -webkit-transform : rotateX(-90deg) translateZ(80px) rotate(180deg);
-  background-color  : #8B8878;
+  background-image  : url(../assets/images/f.jpg);
   background-repeat :no-repeat;
 }
 
 #cube div:nth-child(6)  {
   -webkit-transform : rotateX(90deg) translateZ(80px);
-  background-color  : #458B00;
+  background-image  : url(../assets/images/b.jpg);
   background-repeat :no-repeat;
 }
